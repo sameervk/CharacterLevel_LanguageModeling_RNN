@@ -1,6 +1,7 @@
 # CharacterLevel_LanguageModeling_RNN
 Character-level language modeling with LSTMs trained on old-English "Tragedy of Hamlet"
 
+* TensorFlow version: 2.0.0-alpha
 * Training data: "Tragedy of Hamlet" https://www.gutenberg.org/cache/epub/1787/pg1787.txt
 * 1 custom layer converting the input uint8 type data into one-hot float32 type categorical data
 * 1 LSTM layer with 1024 units with Stateful = True 
