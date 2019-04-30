@@ -15,3 +15,4 @@ Character-level language modeling with LSTMs trained on old-English "Tragedy of 
 * Categorical accuracy: 99.95%
 * Prediction Function 1 uses tf.argmax for the next character
 * Prediction Function 2 uses tf.random.categorical for the next character following the tensorflow "Text Generation" example
+# Just change the input file to train any text
